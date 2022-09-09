@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, monospace;
+    background-color: #204dff;
+}
+
+nav {
+    background-color: #078F2A;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    float: right;
+}
+
+nav h1 img {
+    width: 100px;
+}
+
+h1 {
+   float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    padding: 35px 15px;
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul li a {
+    background-color: black;
+    color: white;
+    padding: 6px 26px;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: #f4ef51;
+    color: #6F6C78;
+    border: 4px solid black;
+}
+
+header {
+    background-color: #751807;
+}
+
+header img {
+    width: 100%;
+    border: 4px solid black;
+
+    height: 350px;
+    object-fit: cover;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #f9f94e;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+input[radio] {
+    text-align: left;
+}
+
+.tamanhoimg{
+    height: 400px;
+}
+ 
+a.info {
+    display: block;
+    background-color: #000000;
+    color: rgb(252, 254, 254);
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.bordacorvinal {
+    border: 10px solid #0593ff;
+}
+
+.bordagrifinoria {
+    border: 10px solid #f22b28
+}
+
+.bordasonserina {
+    border: 10px solid #10e908
+}
+
+.bordalufalufa {
+    border: 10px solid #efe820
+}
+
+.fundo {
+    background-color: #0593ff;
+    padding: 15px;
+}
+
+.compre {
+    font-size: 40px;
+    background-color: #07fad5;
+    
+}
+.comprar {
+    font-size: 55px;
+    background-color: #727272;
+}
